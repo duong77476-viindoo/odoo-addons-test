@@ -32,6 +32,7 @@ For the creation of API username and password please ref this document: <https:/
     "demo": [
         "demo/demo_company.xml",
     ],
+    'author': "Duong Nguyen (daiduongnguyen2709@gmail.com)",
     "installable": True,
     "license": "LGPL-3",
 }
