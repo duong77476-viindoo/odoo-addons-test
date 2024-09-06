@@ -21,7 +21,7 @@ Step 2: Switch to company related to that GST number
 Step 3: Set that username and password in Odoo (Goto: Invoicing/Accounting -> Configuration -> Settings -> Customer Invoices or find "E-invoice" in search bar)
 Step 4: Repeat steps 1,2,3 for all GSTIN you have in odoo. If you have a multi-company with the same GST number then perform step 1 for the first company only.
 
-For the creation of API username and password please ref this document: <https://service.odoo.co.in/einvoice_create_api_user>
+For the creation of API username and password please ref this document: (`reference <https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/#_implementation>`_)
     """,
     "data": [
         "data/account_edi_data.xml",
