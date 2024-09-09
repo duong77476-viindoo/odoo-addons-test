@@ -11,6 +11,8 @@
         "iap",
     ],
     "description": """
+Demo video: `Biometric Attendance Machines Integration <https://youtu.be/wfnJ_5d8_L8>`_
+
 Indian - E-invoicing
 ====================
 To submit invoicing through API to the government.
