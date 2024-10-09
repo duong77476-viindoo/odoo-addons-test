@@ -17,7 +17,7 @@ Key Features
 
    * Filling some credentials information then get serial and template from meInvoice in a click
 
-   .. image:: meinvoice_service1_en.png
+   .. image:: module_test_for_manifest_description/static/description/meinvoice_service1_en.png
       :alt: Meinvoice Provider
       :width: 1100
       :height: 500
