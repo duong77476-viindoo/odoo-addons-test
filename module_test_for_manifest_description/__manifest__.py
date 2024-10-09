@@ -11,19 +11,40 @@
         "iap",
     ],
     "description": """
-Demo video: `Biometric Attendance Machines Integration <https://youtu.be/wfnJ_5d8_L8>`_
+Key Features
+============
+#. Easy configuration just a few click to get serial and template from meInvoice and then finish setup
 
-Indian - E-invoicing
-====================
-To submit invoicing through API to the government.
-We use "Tera Software Limited" as GSP
+   * Filling some credentials information then get serial and template from meInvoice in a click
 
-Step 1: First you need to create an API username and password in the E-invoice portal.
-Step 2: Switch to company related to that GST number
-Step 3: Set that username and password in Odoo (Goto: Invoicing/Accounting -> Configuration -> Settings -> Customer Invoices or find "E-invoice" in search bar)
-Step 4: Repeat steps 1,2,3 for all GSTIN you have in odoo. If you have a multi-company with the same GST number then perform step 1 for the first company only.
+   .. image:: meinvoice_service1_en.png
+      :alt: Meinvoice Provider
+      :width: 1100
+      :height: 500
 
-For the creation of API username and password please ref this document: (`reference <https://www.youtube.com/watch?v=bNbP4O9b_Ak>`_)
+   * Finish setup by filling the serial taken from meInvoice into Invoice Journal
+
+#. Issue system's invoice to meInvoice service.
+#. Generate a Display Version of the issued invoice and store it in the system for later download.
+#. Generate a Converted Version of the issued invoice and store it in the system for later download.
+#. Cancel issued meInvoice.
+#. Manage the system invoices based on the meInvoice status:
+
+   - Original: the system invoices that have the respective meInvoice issued.
+   - Deleted: the system invoices that have the respective meInvoice issued and has been cancel in either system or in meInvoice website.
+   - Replaced: the system invoices that have the respective meInvoice replaced by another.
+   - Adjusted: the system invoices that have the corresponding meInvoice issued and adjust for another invoice.
+
+#. Customer Portal:
+
+   - Customers can download the display version of the meInvoice in PDF format that also has an EU's Factur-X standard-compliant file attached to it so that they can import it into their own instance.
+   - Customers can print the display version of the meInvoice.
+   - Customers can download the  XML version of meInvoice so that they can import it to any software that supports meInvoice XML.
+
+#. Support Sandbox mode for your testing before launching in production.
+#. Multilingual support for meInvoice issuing to foreign customers according to the state rules: Invoice must be written in Vietnamese
+   and may have another language additionally.
+
     """,
     "data": [
         "data/account_edi_data.xml",
